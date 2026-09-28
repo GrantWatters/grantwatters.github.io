@@ -144,6 +144,18 @@
     font-size:0.98rem;
     color:#d8d5cb;
     }
+  .project p.note{
+    margin-top:10px;
+    font-size:0.88rem;
+    color:var(--muted);
+  }
+  .project .links{
+    margin-top:12px;
+    font-size:0.9rem;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+  }
 
   .log{
         position:relative;
@@ -243,6 +255,7 @@
       <div class="contact-row">
         <a href="mailto:grwatters@hotmail.co.uk">grwatters@hotmail.co.uk</a>
         <a href="https://www.linkedin.com/in/grant-watters-7a37baaa/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/GrantWatters" target="_blank" rel="noopener">GitHub</a>
         <span>Hamburg, Germany</span>
       </div>
     </header>
@@ -261,8 +274,8 @@
       <p>
         I'm now doing that same work with data instead of machinery. My training has taken me through
         the full analysis workflow — cleaning and structuring data in SQL and spreadsheets, running
-      exploratory and statistical analysis, and building dashboards in Tableau and Matplotlib that
-      hold up on their own for a non-technical audience.
+      exploratory and statistical analysis, and building dashboards in Tableau, Power BI and Looker
+      Studio that hold up on their own for a non-technical audience.
       </p>
     </section>
 
@@ -272,9 +285,11 @@
         <div>
           <h3>Technical</h3>
           <ul>
-            <li>SQL (PostgreSQL)</li>
+            <li>SQL (PostgreSQL, BigQuery)</li>
             <li>Python</li>
+            <li>Power BI</li>
             <li>Tableau</li>
+            <li>Looker Studio</li>
             <li>Excel / spreadsheets</li>
             <li>Data cleaning</li>
             <li>Statistical &amp; exploratory analysis</li>
@@ -308,17 +323,46 @@
         loyalty-program recommendation, presented through a Tableau dashboard built for a
         non-technical stakeholder audience.
         </p>
+        <p class="links"><a href="https://github.com/GrantWatters/traveltide-customer-segmentation" target="_blank" rel="noopener">View on GitHub →</a></p>
     </div>
 
     <div class="project">
-      <h3>Spotify — listening trends</h3>
-      <p class="tag">Statistical analysis · Clustering · Python</p>
+        <h3>Unicorn Company — profit quality analysis</h3>
+        <p class="tag">SQL · Tableau · Business analysis · Team project</p>
         <p>
-          Explored a streaming-history dataset end to end: statistical analysis, regression, and
-          clustering methods to surface listening patterns, with the results delivered as a dashboard
-        and a set of analytical recommendations.
-      </p>
+          Analysed four years of order data to find out why profit quality wasn't improving even
+          as sales grew. SQL analysis across customers, orders and products traced roughly a fifth
+          of order lines losing money to two causes: discounts above 20%, and the Furniture
+          category. Delivered as an executive summary and a Tableau dashboard, with recommendations
+          on discount guardrails and minimum margins.
+        </p>
+        <p class="links"><a href="https://github.com/GrantWatters/unicorn-profit-quality-analysis" target="_blank" rel="noopener">View on GitHub →</a></p>
     </div>
+
+    <div class="project">
+        <h3>Spotify — business intelligence dashboard</h3>
+        <p class="tag">Business intelligence · Tableau · Stakeholder analysis</p>
+        <p>
+          Analysed Spotify's business performance from three stakeholder perspectives — strategy,
+          revenue and operations — covering user growth, Premium average revenue per user, and
+          cost trends. Delivered as a Tableau dashboard and a set of recommendations, including
+          prioritising Premium conversion and improving operational efficiency.
+      </p>
+        <p class="links"><a href="https://github.com/GrantWatters/spotify-bi-dashboard" target="_blank" rel="noopener">View on GitHub →</a></p>
+    </div>
+
+      <div class="project">
+        <h3>Healthtail — veterinary analytics dashboard</h3>
+        <p class="tag">BigQuery · SQL · Looker Studio</p>
+        <p>
+          Built a self-service BI dashboard for a veterinary clinic to replace manual, one-off
+          reporting, using a Bronze → Silver → Gold BigQuery architecture to separate raw,
+          transformed and reporting-ready data. The two-page Looker Studio dashboard surfaced
+          cancer as the clinic's costliest disease and a breed-level risk pattern, feeding a
+          recommendation for earlier screening.
+        </p>
+        <p class="links"><a href="https://github.com/GrantWatters/healthtail-bigquery-dashboard" target="_blank" rel="noopener">View on GitHub →</a></p>
+      </div>
   </section>
 
     <section class="log">
@@ -387,7 +431,7 @@
       <div class="edu-item">
         <p class="role">Data Analytics Training Program</p>
         <p class="when">Masterschool · Nov 2025 — Jul 2026 · 1,600 instructional hours</p>
-        <p>Capstone-style projects on the TravelTide and Spotify datasets — see Projects above.</p>
+        <p>Capstone-style projects on TravelTide, Unicorn Company, Spotify and Healthtail — see Projects above.</p>
     </div>
 
     <div class="edu-item">
@@ -415,6 +459,7 @@
       <div class="foot-links">
         <a href="mailto:grwatters@hotmail.co.uk">Email</a>
         <a href="https://www.linkedin.com/in/grant-watters-7a37baaa/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/GrantWatters" target="_blank" rel="noopener">GitHub</a>
       </div>
       <p>Grant Watters · Hamburg, Germany</p>
   </footer>
